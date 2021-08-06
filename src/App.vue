@@ -1,24 +1,21 @@
 <template>
   <div id="app">
-    <Layout />
+    <router-view></router-view>
   </div>
 </template>
 <script>
-import Layout from '@/components/Layout'
+
 export default {
   components:{
-    Layout,
+   
   }
 }
 </script>
-<style>
+<style scoped>
 #app{
   position: fixed;
-  width: 100%;
   height: 100%;
-}
-.ant-layout{
   width: 100%;
-  height: 100%;
 }
+
 </style>
